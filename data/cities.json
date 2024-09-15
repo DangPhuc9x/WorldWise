@@ -1,0 +1,64 @@
+{
+  "cities": [
+    {
+      "id": "849f",
+      "cityName": "Tokyo",
+      "countryName": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-09-12T06:08:09.721Z",
+      "notes": "TEST",
+      "position": {
+        "lat": "35.680519446274296",
+        "lng": "139.76698881366997"
+      }
+    },
+    {
+      "id": "4e25",
+      "cityName": "Hanoi",
+      "countryName": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-09-15T14:26:18.721Z",
+      "notes": "My hometown !",
+      "position": {
+        "lat": "21.01240256127948",
+        "lng": "105.80612809290317"
+      }
+    },
+    {
+      "id": "cef4",
+      "cityName": "Otaru",
+      "countryName": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-09-15T14:26:58.768Z",
+      "notes": "My coldest trip !",
+      "position": {
+        "lat": "43.18267284334414",
+        "lng": "140.9886135938285"
+      }
+    },
+    {
+      "id": "2127",
+      "cityName": "Kuala Lumpur",
+      "countryName": "Malaysia",
+      "emoji": "🇲🇾",
+      "date": "2024-09-15T15:11:45.923Z",
+      "notes": "",
+      "position": {
+        "lat": "3.1208307638139687",
+        "lng": "101.72391632639852"
+      }
+    },
+    {
+      "id": "4d7e",
+      "cityName": "Tsuchiura",
+      "countryName": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2024-09-15T15:58:29.373Z",
+      "notes": "",
+      "position": {
+        "lat": "36.063485075897844",
+        "lng": "140.1940903551114"
+      }
+    }
+  ]
+}
