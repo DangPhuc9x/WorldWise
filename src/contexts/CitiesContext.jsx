@@ -75,6 +75,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
       const response = await fetch(`${BASE_URL}/cities/${id}`);
       const data = await response.json();
+      console.log(data);
       dispatch({ type: "city/loaded", payload: data });
     } catch {
       dispatch({ type: "rejected", payload: "Error loading city ..." });
@@ -84,17 +85,20 @@ function CitiesProvider({ children }) {
   async function createCity(newCity) {
     try {
       dispatch({ type: "loading" });
-      const response = await fetch(`${BASE_URL}/cities`, {
+      console.log(newCity);
+      const response = await fetch(`${BASE_URL}/cities/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(newCity),
       });
+      console.log("step 2");
       const data = await response.json();
 
       dispatch({ type: "city/created", payload: data });
-    } catch {
+    } catch (err) {
+      console.log(err);
       dispatch({ type: "rejected", payload: "Error creating city ..." });
     }
   }
