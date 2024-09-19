@@ -32,7 +32,7 @@
     "server": {
       "name": "server",
       "command": "npm run server",
-      "runAtStart": false
+      "runAtStart": true
     }
   }
 }
